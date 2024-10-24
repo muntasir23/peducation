@@ -1,0 +1,232 @@
+.add-student-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+}
+
+.from {
+  background: #e4e8ee;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-left: 40px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.two-input-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.two-input-holder p {
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin: 10px 0px;
+  margin-bottom: 20px;
+}
+
+.two-input-holder input {
+  width: 320px;
+  height: 50px;
+  background: #fff;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1.5px solid lightgray;
+}
+
+.two-input-holder input:hover {
+  border: 1.5px solid #1e2694;
+}
+
+.two-input-holder select {
+  width: 320px;
+  height: 50px;
+  background: #fff;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+@media (max-width: 980px) {
+  .from {
+    background: #e4e8ee;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  .add-student-container {
+    width: 100%;
+  }
+  .two-input-holder {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .two-input-holder input {
+    width: 300px;
+    height: 50px;
+  }
+}
+
+/* main stundent */
+
+.from-holder {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  overflow-x: auto;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 900px;
+  overflow-x: auto;
+}
+
+.from-holder::-webkit-scrollbar {
+  height: 10px;
+  background: #a6a6a6;
+}
+
+.from-holder::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ffffff;
+  border-radius: 15px;
+}
+.from-holder::-webkit-scrollbar-thumb {
+  background: #a5b4fc;
+}
+
+.table-container {
+  /* border-collapse: collapse; */
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+.table-container thead tr {
+  background: #a5b4fc;
+  color: #3730a3;
+  text-align: left;
+}
+
+.table-container th,
+.table-container td {
+  padding: 12px 15px;
+}
+
+.table-container tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.table-container tbody tr td button {
+  background: #fca5a5;
+  padding: 1px 6px;
+  border-radius: 10px;
+  color: #991b1b;
+}
+.table-container tbody tr td a {
+  background: #a7f3d0;
+  padding: 1px 5px;
+  border-radius: 10px;
+  color: #065f46;
+  display: flex;
+  align-items: center;
+}
+.table-container tbody tr:nth-of-type(even) {
+  background: #f3f3f3;
+}
+.table-container tbody tr:last-of-type {
+  border-bottom: 2px solid #4f46e5;
+}
+
+/* ===================  */
+.table-section {
+  background: #ffffff;
+  margin-top: 10px;
+}
+
+.button-sections {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+.button-sections button {
+  padding: 2px 10px;
+  border: 1px solid #4f46e5;
+  margin-right: 20px;
+  background: #c7d2fe;
+  color: #4f46e5;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.searchbar-section {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 10px;
+  overflow-x: auto;
+  margin-top: 30px;
+}
+
+.searchbar-section::-webkit-scrollbar {
+  height: 2px;
+  background: #a6a6a6;
+}
+
+.searchbar-section::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ffffff;
+  border-radius: 15px;
+}
+.searchbar-section::-webkit-scrollbar-thumb {
+  background: #c7d2fe;
+}
+
+.searchInputs {
+  width: 200px;
+  height: 40px;
+  outline: none;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+@media (max-width: 980px) {
+  .from-holder {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow-x: auto;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100vw;
+    /* border: 1px solid #e4e8ee; */
+    /* display: none; */
+  }
+  .searchbar-section {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0px;
+    margin-top: 20px;
+    overflow-x: auto;
+    width: 100vw;
+    /* border: 1px solid #065f46; */
+  }
+  .searchInputs {
+    width: 140px;
+  }
+  .table-container {
+    overflow: auto;
+  }
+  .button-sections {
+    width: 100%;
+  }
+}

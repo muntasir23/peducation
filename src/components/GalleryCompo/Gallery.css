@@ -1,0 +1,190 @@
+.notice-header-compo {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  margin-top: 40px;
+  margin-left: 40px;
+  background: #e2e8f0;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+.gallery-header-btn{
+  background: #1e2694;
+}
+
+@media (max-width: 980px) {
+  .notice-header-compo {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 10px 10px;
+    border-radius: 3px;
+  }
+}
+
+/* Here will be add gallery seciton  */
+
+.gallery-form-holder {
+  width: 900px;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #e4e8ee; */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.input-type input {
+  width: 320px;
+  height: 50px;
+  background: #fff;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1.5px solid lightgray;
+}
+
+.input-type input:hover {
+  border: 1px solid #1e2694;
+}
+
+.input-type textarea:hover {
+  border: 1px solid #1e2694;
+}
+
+.input-type textarea {
+  width: 320px;
+  height: 100px;
+  background: #fff;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.profileSelect {
+  width: 320px;
+  height: 50px;
+  background: #fff;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+.profileSelect:hover {
+  border: 1px solid #1e2694;
+}
+
+.progress {
+  width: 320px;
+  background: #ffffff;
+  margin-top: 20px;
+  color: #e1e1e1;
+}
+
+.progress-bar {
+  background: #6366f1;
+  height: 8px;
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
+.from button {
+  width: 320px;
+  height: 50px;
+  background: #1e2694;
+  color: #e1e1e1;
+  margin-top: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+#file {
+  display: none;
+}
+
+.file label {
+  height: 50px;
+  width: 320px;
+  border-radius: 5px;
+  border: 1px dashed #a6a6a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #000000;
+  margin-top: 10px;
+  background: #fff;
+}
+.file label:hover {
+  border: 1px dashed #1e2694;
+}
+
+@media (max-width: 980px) {
+  .gallery-form-holder {
+    width: 100vw;
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #000000; */
+  }
+  .input-type input {
+    width: 300px;
+    height: 40px;
+  }
+  .input-type textarea {
+    width: 300px;
+    height: 80px;
+  }
+  .profileSelect {
+    width: 300px;
+    height: 40px;
+  }
+  .progress {
+    width: 300px;
+  }
+  .from button {
+    width: 300px;
+    height: 50px;
+  }
+  .file label {
+    height: 50px;
+    width: 300px;
+  }
+}
+
+.gallery-container {
+  width: 900px;
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 980px) {
+  .gallery-container {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+}

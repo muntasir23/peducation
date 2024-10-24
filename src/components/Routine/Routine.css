@@ -1,0 +1,138 @@
+.routine-post-box {
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.btn-routine {
+  width: 900px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background: #dc2626;
+  padding: 10px 10px;
+  border-radius: 5px;
+  gap: 20px;
+}
+
+.btn-routine button {
+  background: #fee2e2;
+  padding: 3px 20px;
+  border-radius: 3px;
+  font-weight: 600;
+  color: #dc2626;
+}
+
+.common-items-of-routine {
+  background: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 900px;
+  gap: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.common-items-of-routine input {
+  width: 350px;
+  height: 50px;
+  padding: 10px;
+  background: #f9fafb;
+  border-radius: 5px;
+  border: 1px solid #d4d4d8;
+}
+.common-items-of-routine select {
+  width: 350px;
+  height: 50px;
+  padding: 10px;
+  background: #f9fafb;
+  border-radius: 5px;
+  border: 1px solid #d4d4d8;
+}
+
+.class-details-box {
+  background: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 900px;
+  gap: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.class-details-box input {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  background: #f9fafb;
+  border-radius: 5px;
+  border: 1px solid #d4d4d8;
+}
+
+.class-details-box select {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  background: #f9fafb;
+  border-radius: 5px;
+  border: 1px solid #d4d4d8;
+}
+
+.class-details-box button {
+  background: #fee2e2;
+  background: #dc2626;
+  padding: 3px 20px;
+  border-radius: 5px;
+  height: 40px;
+  font-weight: 600;
+  color: #fee2e2;
+}
+
+
+.routine-compo-container{
+  margin-top: 40px;
+  margin-left: 40px;
+  background: #e2e8f0;
+  padding: 10px;
+}
+
+
+.time-box{
+  width: 900px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  overflow: auto;
+  gap: 40px;
+  border-bottom: 2px solid #e2e8f0;
+  padding: 15px 10px;
+  background: #fff;
+}
+
+.time-box h1 strong{
+  color: #1d4ed8;
+}
+
+.time-box h1 {
+  width: 80px;
+}
+
+.each-classdetails{
+  width: 250px;
+  border-right: 1px solid #e2e8f0;
+}
+
+
+.dlt-rtn-btn{
+  color: #dc2626;
+}
+
+.each-classdetails button{
+  color: #dc2626;
+}

@@ -1,0 +1,20 @@
+.round-icon {
+  padding: 3px;
+  background: #bfdbfe;
+  color: #1e2694;
+  width: 22px;
+  height: 22px;
+  font-size: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+

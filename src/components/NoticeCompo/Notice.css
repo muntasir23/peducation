@@ -1,0 +1,365 @@
+.notice-header-compo {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  margin-top: 40px;
+  margin-left: 40px;
+  background: #93c5fd;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+@media (max-width: 980px) {
+  .notice-header-compo {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 10px 10px;
+    border-radius: 3px;
+  }
+}
+
+/* Here will be add notice seciton  */
+
+.form-hodler {
+  width: 900px;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.input-type input {
+  width: 320px;
+  height: 50px;
+  background: #f9fafb;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1.5px solid lightgray;
+}
+
+.btn-post {
+  width: 320px;
+  height: 50px;
+  background: #dc2626;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.input-type input:hover {
+  border: 1px solid #1e2694;
+}
+
+.input-type textarea:hover {
+  border: 1px solid #1e2694;
+}
+
+.input-type textarea {
+  width: 320px;
+  height: 100px;
+  background: #f9fafb;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.profileSelect {
+  width: 320px;
+  height: 50px;
+  background: #f9fafb;
+  outline: none;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+.profileSelect:hover {
+  border: 1px solid #1e2694;
+}
+
+.progress {
+  width: 320px;
+  background: #f9fafb;
+  margin-top: 20px;
+  color: #e1e1e1;
+}
+
+.progress-bar {
+  background: #6366f1;
+  height: 8px;
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
+.from button {
+  width: 320px;
+  height: 50px;
+  background: #1e2694;
+  color: #e1e1e1;
+  margin-top: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+#file {
+  display: none;
+}
+
+.file label {
+  height: 50px;
+  width: 320px;
+  border-radius: 5px;
+  border: 1px dashed #a6a6a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #000000;
+  margin-top: 10px;
+  background: #f9fafb;
+}
+.file label:hover {
+  border: 1px dashed #1e2694;
+}
+
+@media (max-width: 980px) {
+  .form-hodler {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 5px;
+  }
+  .input-type input {
+    width: 300px;
+    height: 40px;
+  }
+  .input-type textarea {
+    width: 300px;
+    height: 80px;
+  }
+  .profileSelect {
+    width: 300px;
+    height: 40px;
+  }
+  .progress {
+    width: 300px;
+  }
+  .from button {
+    width: 300px;
+    height: 50px;
+  }
+  .file label {
+    height: 50px;
+    width: 300px;
+  }
+}
+
+/* main notice */
+
+.notice-container {
+  width: 900px;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.notice-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  background: #f9faf6;
+  width: 250px;
+  /* height: 70px; */
+  /* margin-bottom: 10px; */
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+}
+
+.notice-card-image {
+  width: 230px;
+  height: 150px;
+  /* width: 60px; */
+  overflow: hidden;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.notice-card-image img {
+  width: 230px;
+  min-height: 150px;
+  border-radius: 5px 5px 0px 0px;
+  border-radius: 2px 0 0 0;
+}
+
+.notice-card-details {
+  width: 100%;
+}
+
+.notice-card-details h1 {
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #1e2694;
+  font-size: 20px;
+}
+
+.notice-card-details p{
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.notice-card-details button{
+  background: #fee2e2;
+  background: #dc2626;
+  padding: 3px 5px;
+  border-radius: 5px;
+  height: 25px;
+  font-weight: 600;
+  color: #fee2e2;
+  margin-top: 15px;
+}
+
+.notice-card-p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  width: 180px;
+  cursor: pointer;
+}
+
+@media (max-width: 980px) {
+  .notice-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    gap: 10px;
+    background: #e2e8f0;
+    width: 250px;
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+  }
+  .notice-container {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+  }
+  
+}
+
+.load-more-btn {
+  width: 900px;
+  margin-left: 40px;
+  margin-top: 40px;
+  border: 2px solid #e4e8ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.load-more-btn button {
+  padding: 8px 20px;
+  background: #1e2694;
+  color: #f9faf6;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  border-radius: 5px;
+}
+@media (max-width: 980px) {
+  .load-more-btn {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 40px;
+    border: 2px solid #e4e8ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+}
+
+
+
+
+
+
+.multiple-noticeholder{
+  margin-top: 40px;
+  margin-left: 40px;
+  background: #fff;
+  border: 2px solid #e4e8ee;
+  width: 900px;
+  padding: 10px;
+}
+
+.all-inputs{
+  background: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.all-inputs input{
+  width: 350px;
+  height: 50px;
+  padding: 10px;
+  background: #f9fafb;
+  border-radius: 5px;
+  border: 1px solid #d4d4d8;
+}
+
+.titles-of-multi-file{
+  background: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.titles-of-multi-file button{
+  width: 150px;
+  height: 50px;
+  background: #dc2626;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.titles-of-multi-file strong{
+  color: #dc2626;
+}
